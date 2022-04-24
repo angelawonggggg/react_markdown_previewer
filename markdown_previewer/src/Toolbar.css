@@ -1,0 +1,15 @@
+.toolbarWrap {
+    background-color: lightgrey;
+    padding: 5px 0;
+    position: relative;
+    height: 20px;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
