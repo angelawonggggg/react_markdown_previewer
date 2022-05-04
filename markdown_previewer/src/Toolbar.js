@@ -9,8 +9,9 @@ function Toolbar({ toggleIsEditorMaximized, isEditorMaximized }) {
 
   return (
     <div className="toolbarWrap">
-       
-        <span className="icon" onClick={toggleIsEditorMaximized}>{isEditorMaximized ? minimizeIcon : maximizeIcon}</span>
+      <span className="icon" onClick={toggleIsEditorMaximized}>
+        {isEditorMaximized ? minimizeIcon : maximizeIcon}
+      </span>
     </div>
   );
 }
