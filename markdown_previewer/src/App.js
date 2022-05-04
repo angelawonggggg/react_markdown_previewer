@@ -30,7 +30,7 @@ function App(props) {
 
   return (
     <div className="App">
-      {/* <p className="App-intro">{apiResponse}</p> */}
+      <p className="App-intro">{apiResponse}</p>
       <h1>React Markdown Previewer</h1>
       <Editor addMarkdownLog={addMarkdownLog} />
       <Result markdowns={markdownLogs} />
